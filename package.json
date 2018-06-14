@@ -1,0 +1,13 @@
+{
+  "name": "osmhelper-geometry",
+  "version": "0.0.0",
+  "description": "OSMHelper-geometry",
+  "main": "app.js",
+  "author": {
+    "name": "zmedg"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "point-in-polygon": "^1.0.1"
+  }
+}

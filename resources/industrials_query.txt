@@ -1,0 +1,11 @@
+[out:json][timeout:250];
+// fetch area “hungary” to search in
+{{geocodeArea:hungary}}->.searchArea;
+// gather results
+(
+  way["landuse"="industrial"](area.searchArea);
+);
+// print results
+out body;
+>;
+out skel qt;
